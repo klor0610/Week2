@@ -22,3 +22,5 @@ ls -l /home/ubuntu/Week2
 echo "here are the contents of file.txt"
 
 cat /home/ubuntu/Week2/file.txt
+
+echo "this echo is as test"
