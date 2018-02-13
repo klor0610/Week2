@@ -4,8 +4,9 @@ echo "Hello $(whoami)"
 #shows current location
 pwd
 #creates a file on Desktop
-touch /home/ubuntu/Week2/Sample.txt
-cd /home/ubuntu/Week2
+touch /home/user/Desktop/Sample.txt
+cd /home/user/Desktop
+
 echo "enter hello world then hit CTRL D to exit"
 tee -a Sample.txt
 
@@ -13,12 +14,11 @@ tee -a Sample.txt
 cd
 mkdir NightClass
 #return to Desktop
-cd /home/ubuntu/Week2
+cd /home/user/Desktop
 #rename file
 mv Sample.txt file.txt
-ls -l /home/ubuntu/Week2
+ls -l /home/user
 
 #show saved contents of file.txt in Desktop
 echo "here are the contents of file.txt"
-
-cat /home/ubuntu/Week2/file.txt
+cat /home/user/Desktop/file.txt 
